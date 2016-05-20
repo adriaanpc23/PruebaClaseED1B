@@ -16,5 +16,15 @@ namespace app_repositorio_1b
         {
             InitializeComponent();
         }
+
+        private void bMensaje_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ESTOY EN MI SALSA ROQUEFORT");
+        }
+
+        private void bLoco_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("EL PODER RESIDE EN LA MENTE");
+        }
     }
 }
